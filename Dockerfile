@@ -9,7 +9,8 @@ RUN yum install -y php56u php56u-fpm php56u-cli php56u-devel php56u-gd \
 php56u-pecl-jsonc php56u-intl php56u-process  php56u-common php56u-pecl-mongo \
 php56u-mcrypt php56u-pdo php56u-pecl-geoip php56u-fpm php56u-pecl-memcache \
 php56u-pecl-jsonc-devel php56u-mysqlnd php56u-redis php56u-pecl-apcu php56u-xml \
-php56u-mbstring nginx supervisor
+php56u-mbstring nginx supervisor git
+RUN yum clean all
 
 COPY files/supervisord.conf /etc/supervisord.conf
 COPY files/services.conf /etc/supervisord.d/services.conf
