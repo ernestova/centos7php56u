@@ -1,4 +1,4 @@
-# ![]()docker_centos7php56u
+# docker_centos7php56u
 
 ## Summary
 
