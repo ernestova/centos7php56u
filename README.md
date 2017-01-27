@@ -1,4 +1,4 @@
-# ![](http://microsites.digitalglobe.com/arcgis/images/DG-Logo-clear-bg.png) docker_centos7php56u
+# ![]()docker_centos7php56u
 
 ## Summary
 
